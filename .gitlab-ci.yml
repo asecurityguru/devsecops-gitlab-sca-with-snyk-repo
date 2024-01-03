@@ -3,7 +3,7 @@ stages:
 
 run-sca-job:
     stage: runSCAScanUsingSnyk
-    image: maven:3.8.5-openjdk-11-slim
+    image: maven:3.8.5-openjdk-17-slim
     script: |
       SNYK_TOKEN='2f4afa39-c493-4c6d-b34e-080c1a8f9014'
       export SNYK_TOKEN
